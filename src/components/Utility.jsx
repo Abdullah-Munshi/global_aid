@@ -8,11 +8,13 @@ export const TitlePrimary = ({ children }) => {
 
 export const TitleSecondary = ({ heading, text }) => {
   return (
-    <div className="mb-6">
-      <h3 className="text-white text-4xl font-bold leading-tight mb-[2px]">
+    <div className="mb-7">
+      <h3 className="text-white text-3xl md:text-4xl font-bold leading-tight mb-[2px]">
         {heading}
       </h3>
-      <p className="text-white text-xl font-normal leading-tight">{text}</p>
+      <p className="text-white text-base md:text-[18px] font-normal leading-tight">
+        {text}
+      </p>
     </div>
   );
 };
