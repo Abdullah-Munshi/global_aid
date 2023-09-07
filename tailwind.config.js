@@ -25,6 +25,7 @@ module.exports = {
           "linear-gradient(108deg, #303986 12.12%, #3F4155 86.5%)",
         "gradient-six":
           "linear-gradient(117deg, #05FF05 16.67%, #A991F0 82.88%)",
+        "gradient-seven": "linear-gradient(152deg, #1354A0 0%, #0C265F 100.8%)",
       },
       borderRadius: {
         10: "0.625rem",
@@ -33,6 +34,8 @@ module.exports = {
         one: "0px 2px 5px 0px rgba(0, 0, 0, 0.25)",
         two: "0px 0px 3px 1px rgba(0, 0, 0, 0.25)",
         three: "0px 1px 5px 0px rgba(0, 0, 0, 0.25)",
+        four: "0px 0px 8px 7px rgba(0, 0, 0, 0.20)",
+        five: "0px 1px 3px 0px rgba(0, 0, 0, 0.25)",
       },
     },
   },

@@ -5,6 +5,17 @@ export const TitlePrimary = ({ children }) => {
     </h4>
   );
 };
+
+export const TitleSecondary = ({ heading, text }) => {
+  return (
+    <div className="mb-6">
+      <h3 className="text-white text-4xl font-bold leading-tight mb-[2px]">
+        {heading}
+      </h3>
+      <p className="text-white text-xl font-normal leading-tight">{text}</p>
+    </div>
+  );
+};
 export const Button = ({ children, ...props }) => {
   return <button {...props}>{children}</button>;
 };
