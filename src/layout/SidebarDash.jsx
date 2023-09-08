@@ -44,6 +44,7 @@ const dashMenu = [
         />
       </SVGIcon>
     ),
+    total: 10,
   },
   {
     label: "Refer and Earn",

@@ -7,6 +7,8 @@ import PurchasePack from "../components/dashboard/PurchasePack";
 import Refer from "../components/dashboard/Refer";
 import Pack from "../components/dashboard/Pack";
 import PackTwo from "../components/dashboard/PackTwo";
+import lightningDuoton from "../assets/lightning_duotone.png";
+import iconPlay from "../assets/play-fill.png";
 
 const Dashboard = () => {
   return (
@@ -16,8 +18,18 @@ const Dashboard = () => {
       </div>
       <div className="bg-[rgba(40,46,58,0.60)] shadow-two rounded-10 p-4 md:p-6 space-y-10">
         <div>
-          <div className="mb-6">
+          <div className="mb-6 flex justify-between flex-col-reverse sm:flex-row">
             <TitlePrimary>Dashboard</TitlePrimary>
+            <div className="relative bg-[#C52A2A] rounded-[5px] pl-6 pr-3 py-1 ml-auto sm:ml-0 mb-4 sm:mb-0">
+              <p className="text-base font-bold text-white">
+                12,432 Users Joined after you!
+              </p>
+              <img
+                className="absolute -left-[28px] top-1/2 -translate-y-1/2 w-14 h-14"
+                src={lightningDuoton}
+                alt="lightningDuoton"
+              />
+            </div>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 2xl:gap-6 mb-6">
             <Statistics
@@ -83,6 +95,23 @@ const Dashboard = () => {
           <div className="lg:grid grid-cols-[350px_auto] gap-5 space-y-6 lg:space-y-6">
             <PurchasePack />
             <Refer />
+          </div>
+          <div className="flex items-center mt-5 lg:ml-9">
+            <div className="mr-3">
+              <img
+                src={iconPlay}
+                alt="play"
+                className="w-14 h-14 cursor-pointer"
+              />
+            </div>
+            <div>
+              <p className="text-white font-normal text-[15px]">
+                Want to know how it works?
+              </p>
+              <strong className="text-primary font-bold text-[27px] leading-tight">
+                Watch Complan
+              </strong>
+            </div>
           </div>
         </div>
         <div>
