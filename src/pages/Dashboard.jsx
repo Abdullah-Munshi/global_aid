@@ -92,7 +92,7 @@ const Dashboard = () => {
               till date"
             />
           </div>
-          <div className="lg:grid grid-cols-[350px_auto] gap-5 space-y-6 lg:space-y-6">
+          <div className="lg:grid grid-cols-[350px_auto] gap-5 space-y-6 lg:space-y-0">
             <PurchasePack />
             <Refer />
           </div>

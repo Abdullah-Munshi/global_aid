@@ -7,8 +7,8 @@ const Refer = () => {
       <h4 className="text-[21px] font-bold text-white">
         Refer and get unmatched perks!
       </h4>
-      <div className=" space-y-5">
-        <div className="sm:flex sm:space-x-14 border-b border-[#626262] py-4 space-y-5 sm:space-y-0">
+      <div className="space-y-5">
+        <div className="sm:grid grid-cols-2 gap-6 border-b border-[#626262] py-4 space-y-5 sm:space-y-0">
           <div className="flex items-center space-x-3 ">
             <h6 className="text-[40px] leading-tight text-primary font-bold">
               50%
@@ -28,7 +28,7 @@ const Refer = () => {
             </p>
           </div>
         </div>
-        <div className="max-w-[750px]">
+        <div className="">
           <h6 className="text-white text-base font-bold mb-3">
             Share your Invitation Link
           </h6>
@@ -65,7 +65,7 @@ const Refer = () => {
             </button>
           </div>
         </div>
-        <div className="sm:flex items-center justify-between max-w-[750px] space-y-3 sm:space-y-0">
+        <div className="sm:flex items-center justify-between space-y-3 sm:space-y-0">
           <div className="flex items-center space-x-3 ">
             <h6 className="text-[40px] leading-tight text-[#AA91F0] font-bold">
               1231
